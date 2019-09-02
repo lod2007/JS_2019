@@ -1,0 +1,31 @@
+body ul, body li {
+  display: block;
+  padding: 0; }
+
+body li {
+  list-style-type: none; }
+
+body .header {
+  width: 100%; }
+  body .header nav .menu {
+    display: flex; }
+  body .header__title {
+    font-size: 70px;
+    color: #000; }
+
+body .about {
+  max-width: 1024px;
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center; }
+  body .about__title {
+    font-size: 70px;
+    color: #55ff; }
+
+body .footer {
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
