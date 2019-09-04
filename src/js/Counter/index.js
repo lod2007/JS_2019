@@ -17,6 +17,10 @@ export default class Couner {
         const btnPlus = document.createElement('button')
         btnPlus.classList.add('counter_btn')
         btnPlus.innerText='UP'
+        btnPlus.addEventListener('click',()=>{this.plus(display)
+            
+        })
+
 
         const btnMinus = document.createElement('button')
         btnMinus.classList.add('counter_btn')
