@@ -8,6 +8,18 @@ body {
         list-style-type: none;
 
     }
+    .square{
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        background-color: aquamarine;
+        transition: all .5s;
+    }
+
+    .square-soft {
+        border-radius: 15px;
+
+    }
     
     @import './app/header.scss';
     @import './app/about.scss';
