@@ -12,42 +12,13 @@
 <body>
 
     <section>
-        <div>
-            <h1 id="title">Jquery</h1>
-        </div>
-
-<div class="square" id="square"></div>
-<div>
-   
-    <button id="btn-square">нажми меня</button>
-</div>
-
-        <div>
-            <ul class="list list-first">
-
-                <li class="list_item"><a href="#">один</a></li>
-                <li class="list_item"><a href="#">два</a></li>
-                <li class="list_item"><a href="#">три</a></li>
-                <li class="list_item"><a href="#">четыре</a></li>
-                <li class="list_item"><a href="#">пять</a></li>
-            </ul>
-            <ul class="list list-second">
-
-                <li class="list_item"><a href="#">один</a></li>
-                <li class="list_item"><a href="#">два</a></li>
-                <li class="list_item"><a href="#">три</a></li>
-                <li class="list_item"><a href="#">четыре</a></li>
-                <li class="list_item"><a href="#">пять</a></li>
-            </ul>
-            <ul class="list list-second">
-                <li class="list_item list_item-dark"><a href="#">один</a></li>
-                <li class="list_item list_item-dark"><a href="#">два</a></li>
-                <li class="list_item list_item-dark"><a href="#" data-secret="4">три</a></li>
-                <li class="list_item list_item-dark"><a href="#">четыре</a></li>
-                <li class="list_item list_item-dark"><a href="#">пять</a></li>
-            </ul>
-            
-        </div>
+      <div class="todo-list">
+          <form>
+            <input id="InputTodo" type="text" placeholder="TODO">
+            <input id="btnAddTodo" type="button" value="add todo">
+        </form>
+        <ul id="todolistli"></ul>
+      </div>
     </section>
 </body>
 <script src="./static/js/bundle.js"></script>

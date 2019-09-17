@@ -8,18 +8,16 @@ body {
         list-style-type: none;
 
     }
-    .square{
-        width: 200px;
-        height: 200px;
-        margin: 5px;
-        background-color: aquamarine;
-        transition: all .5s;
-    }
-
-    .square-soft {
-        border-radius: 15px;
+    
+    
+    .todo-item{
 
     }
+
+    .todo-close{
+      text-decoration: line-through;
+    }
+
     
     @import './app/header.scss';
     @import './app/about.scss';

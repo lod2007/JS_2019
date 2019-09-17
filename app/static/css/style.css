@@ -5,15 +5,8 @@ body ul, body li {
 body li {
   list-style-type: none; }
 
-body .square {
-  width: 200px;
-  height: 200px;
-  margin: 5px;
-  background-color: aquamarine;
-  transition: all .5s; }
-
-body .square-soft {
-  border-radius: 15px; }
+body .todo-close {
+  text-decoration: line-through; }
 
 body .header {
   width: 100%; }
