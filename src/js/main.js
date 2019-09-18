@@ -27,12 +27,19 @@ function renderTodoList(list,conteiner) {
       renderTodoList(todoService.remove(id),conteiner) //что поменяли тут же отрисовываем
 
    })
-
+  
 
 
 }
 
+
+
 $(document).ready(()=>{
   renderTodoList(todoService.todolist,todolist)
+
+  btnAdd.click((e)=>{
+   renderTodoList(todoService.add({description:inputTodo.val(),status:'close'}),todolist)
+})
+
 
 })

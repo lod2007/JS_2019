@@ -5,8 +5,12 @@ body ul, body li {
 body li {
   list-style-type: none; }
 
+body .todo-item {
+  color: #000; }
+
 body .todo-close {
-  text-decoration: line-through; }
+  text-decoration: line-through;
+  color: red; }
 
 body .header {
   width: 100%; }

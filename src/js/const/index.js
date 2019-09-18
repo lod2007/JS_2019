@@ -1,6 +1,6 @@
 import $ from 'jquery'
 
-export const inputTodo=$('#todolist')
+export const inputTodo=$('#InputTodo')
 export const btnAdd=$('#btnAddTodo')
 export const todolist=$('#todolistli')
 
